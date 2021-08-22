@@ -6,8 +6,11 @@ ConLAR applies a learning-to-allocate approach that predicts and allocates resou
 
 The following figure presents an overview of ConLAR, which contains four main components:
 *Observation* Component monitors the resource utilization and limits of Docker containers in real time, by interrogating directly with Linux cgroup subsystems.
+
 *Workload Prediction* Component employs ML models to predict the future workload of the application dynamically. It analyzes the workload for the previous few cycles provided by the observation component, and outputs the predicted workload for the next cycle. 
+
 *Resource Allocation* Component adaptively generates resource scaling strategies using reinforcement learning technique, where the reward function is measured by SLO violation rate and resource provisioning cost. 
+
 *Execution* Component executes the resource scaling strategies by modifying the container cgroup file system to update the resource quota during runtime.
 
 
