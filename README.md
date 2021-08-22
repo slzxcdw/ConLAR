@@ -18,7 +18,7 @@ The following figure presents an overview of ConLAR, which contains four main co
 ![image](https://user-images.githubusercontent.com/45347405/130312984-113908f3-f946-434f-91c9-0faa04d6f669.png)
 
 ## Datasets
-(1) **Clarknet** is a periodic workload, which provides traces of a real-time web application workload. The dataset trace contains 3328587 HTTP requests to the ClarkNet WWW server for two weeks. It exhibits notable periodic patterns with stable linear growth, stable linear decline, and seasonality. The total dataset are available [here](http://ita.ee.lbl.gov/html/traces.html).
+(1) **Clarknet** is a periodic workload, which provides traces of a real-time web application workload. The dataset trace contains 3328587 HTTP requests to the ClarkNet WWW server for two weeks. It exhibits notable periodic patterns with stable linear growth, stable linear decline, and seasonality. The total dataset is available [here](http://ita.ee.lbl.gov/html/traces.html).
 
 
 (2)**GoogleClusterData** is a aperiodic workload, which provides traces of workloads from the Google cluster management systems.It is a 29-day dataset containing more than 40 million task scheduling data information. The data includes the resources used by each task and the scheduling relationship, such as scheduling priority, task type, number of required resources, priority, etc. We extract CPU workload of several machines, which has significant aperiodic characteristics. The detailed descriptions about the dataset are available [here](https://github.com/google/cluster-data).
