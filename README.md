@@ -25,6 +25,6 @@ The following figure presents an overview of ConLAR, which contains four main co
 
 ## Implementation
 
-We use load generator to send requests to simulate the workload of the running application. And then, ConLAR dynamically allocates resource of the web server container through reinforcement learning with dynamic action values. Finally, We check the performance by accessing the application.
+We use load generator to send requests to simulate the workload of the running application. And then, ConLAR dynamically allocates resource of the web server container through reinforcement learning with dynamic action values. Finally, we check the performance by accessing the application.
 
 More implementation details are available [here](./ConLAR).
