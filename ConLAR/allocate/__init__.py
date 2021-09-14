@@ -1,1 +1,0 @@
-__all__ = ["act_component"]

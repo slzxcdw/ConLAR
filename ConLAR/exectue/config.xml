@@ -1,6 +1,0 @@
-<config>
-	<cgroup>
-		<path>/sys/fs/cgroup/</path>
-		<group>docker/?CONTAINER_ID?/</group>
-	</cgroup>
-</config>
