@@ -1,0 +1,8 @@
+<config>
+	<default>
+		<full_path>arx-fair</full_path>
+		<train>/home/cdw/data/lstm.py</train>
+		<predict>/home/cdw/data/predict.py</predict>
+		<output>/home/cdw/data/predict.csv</output>
+	</default>
+</config>
